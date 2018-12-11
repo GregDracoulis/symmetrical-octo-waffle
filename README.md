@@ -77,9 +77,12 @@ Returns stats about a specific nationality
 Returns results for the given move sequence based on past game data
 
 ### Running the API
-From backend/
+From `backend/`
+
 `pip install -r requirements.txt`
+
 `export FLASK_APP=api.py`
+
 `python -m flask run`
 
 The backend should run on http://localhost:5000
@@ -104,8 +107,10 @@ determined in just a few moves.
 ### Running the frontend
 You'll require node/npm.
 
-From frontend/
+From `frontend/`
+
 `npm install`
+
 `npm start`
 
 The frontend should run on http://localhost:3000
