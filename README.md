@@ -92,6 +92,7 @@ The frontend is a React app that reads from the Flask backend. It provides two k
 visualizations
 
 #### Map view
+![Map view](map.png)
 Plots bubbles for each country on the map, with the size of each bubble corresponding
 to how many players (samples) we have from each country, and the color of the bubble
 ranging from red to blue according to whether the mean rating of the players from
@@ -99,6 +100,7 @@ that country is higher or lower than the mean rating of players globally. You ca
 over each bubble to see more descriptive statistics (min/max/median/mean/stdev).
 
 #### Interactive game board
+![Interactive game board](interactive_game.png)
 You can play a game of 9dt interactively in the browser. As you play, you can see
 a pie chart that updates live to predict the outcome of the game. This could be a
 compelling visualization to demonstrate with data how the outcome of the game can be
